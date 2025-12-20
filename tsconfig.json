@@ -1,0 +1,12 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "rootDir": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "target": "es2016",
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
