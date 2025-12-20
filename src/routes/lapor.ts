@@ -1,3 +1,5 @@
+//lapor.ts
+
 import express from "express";
 import upload from "../utils/multer";
 import { createReport, getAllReports, updateReportStatus, toggleSupport } from "../controller/lapor";
