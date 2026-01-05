@@ -63,9 +63,9 @@ The system follows a modular controller-router pattern:
    npm run dev
 
 
-
 🤝 Contact
-Yusuf - GitHub Profile 
+Yusuf - [GitHub Profile](https://github.com/Yusufsw1) 
+
 Project Link: https://github.com/Yusufsw1/backendLaporin
 
 
