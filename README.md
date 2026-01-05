@@ -51,22 +51,17 @@ The system follows a modular controller-router pattern:
    ```bash
    npm install
 3. Configure Environment Variables (.env):
+   ```bash
    SUPABASE_URL=your_supabase_url
    SUPABASE_KEY=your_supabase_anon_key
    CLOUDINARY_CLOUD_NAME=your_name
    CLOUDINARY_API_KEY=your_key
    CLOUDINARY_API_SECRET=your_secret
+
 4. Run in development mode:
    ```bash
    npm run dev
 
-🛰️ API Endpoints (Brief)
-Method	Endpoint	Description
-POST	/api/v1/reports/create	Submit new report with image & EXIF check
-GET	/api/v1/reports/all	Get all reports with cluster mapping
-POST	/api/v1/reports/:id/feedback	Submit admin resolution for a cluster
-DELETE	/api/v1/reports/:id	Permanent report & cluster cleanup
-PUT	/api/v1/reports/:id/status	Update report progress status
 
 
 🤝 Contact
